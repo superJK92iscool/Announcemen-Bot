@@ -1,0 +1,4 @@
+appsettings*.json
+!appsettings.Template.json
+bin/
+obj/
