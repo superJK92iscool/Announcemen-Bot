@@ -8,3 +8,4 @@ Discord.Net
 ```
 It also has a command for geting status of a mc server, you can change the ports if needed, and if you don't need that feature, you can remove the `MCStatus.cs` file
 On Discord Developer Portal, create a discord bot and copy the bot token, and open appsetting.Template.json and replace `"TOKEN"` with th bot token in Program.cs with that, there a several tutorials on how to make a discord bot, also make a role called `Announcements`, that way it will ping people with that role
+`appsettings.json` does need to be in the same location as the .exe file or it won't work.
